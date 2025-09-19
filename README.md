@@ -1,9 +1,17 @@
-# React + Vite
+This project demonstrates how to use TanStack Query with React and React Router to manage fetching, caching, and updating event data.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Concepts Covered
 
-Currently, two official plugins are available:
+useQuery → fetch and cache events, handle loading and error states
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# tanstackQuery
+useMutation → create, update, delete events, and refresh cache
+
+Optimistic Updates → instantly update the UI before server confirmation
+
+React Router Loader → prefetch event data
+
+React Router Action → handle form submissions and update cache
+
+useIsFetching → global loading indicator
+
+Cache Management → staleTime & gcTime for data freshness
